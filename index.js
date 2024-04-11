@@ -28,7 +28,7 @@ app.use((req, res, next) => {
     next();
 });
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://uptight-cap-worm.cyclic.app',
     credentials: true // enable sending cookies cross-origin if needed
 }));
 
